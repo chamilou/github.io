@@ -42,10 +42,10 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // See Lecture 50, part 1
 for (var i = 0; i < names.length; i++) {
 
-    if (names[i].charAt(0).toLowerCase() === "j") {
-        console.log("Hello " + names[i]);
-    } else {
+    if (names[i].charAt(0).toLowerCase() == "j") {
         console.log("Goodbuy " + names[i]);
+    } else {
+        console.log("Hello " + names[i]);
     };
 
     // STEP 11:
